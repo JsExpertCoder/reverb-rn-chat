@@ -1,6 +1,6 @@
 # Let´s explore how to use Laravel Reverb to establish a WebSocket connection between your Laravel backend and a React Native application built with Expo. I think I covered the necessary steps to set up Laravel Reverb, configure the WebSocket connection, subscribe to channels using Laravel Echo and chat with others!
 
-## 1 - [aravel (Backend)](https://github.com/JsExpertCoder/lara-chat)
+## 1 - [Laravel (Backend)](https://github.com/JsExpertCoder/lara-chat)
 
 #### 1.1 - Create a new laravel project
 
@@ -422,7 +422,7 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
 ```
 
-## 2 - [React Native](https://github.com/JsExpertCoder/rnative-chat)
+## 2 - [React Native (Frontend)](https://github.com/JsExpertCoder/rnative-chat)
 
 ### 2.1 Create a new React Native app (I used Expo)
 
